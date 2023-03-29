@@ -1,0 +1,79 @@
+.logo-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+h1,
+h2 {
+  font-family: "Overpass Mono", monospace;
+}
+
+h1,
+h2 {
+  color: #01648b;
+}
+
+p {
+  color: #5bd0a4;
+  font-size: 20px;
+}
+
+.list-inline > li > i {
+  color: #5bd0a4;
+}
+
+.list-inline-icons > li > i {
+  color: rgba(1, 100, 139, 0.7);
+}
+
+.list-inline,
+.list-inline-icons {
+  padding: 0;
+  letter-spacing: 0.5rem;
+  line-height: 2.5rem;
+}
+
+.list-inline li,
+.list-inline-icons li {
+  display: inline;
+}
+
+.connect-link a {
+  text-decoration: none;
+  color: #01648b;
+}
+
+.connect-link a:hover {
+  color: #5bd0a4;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 0 30px rgba(1, 100, 139, 0.4);
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+@media (min-width: 300px) {
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 540px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
