@@ -57,6 +57,14 @@ p {
   border-radius: 5px;
 }
 
+.list-inline > li > a {
+  color: #5bd0a4;
+}
+
+.list-inline > li > a:hover {
+  color: #01648b;
+}
+
 @media (min-width: 300px) {
   .container {
     width: 300px;
